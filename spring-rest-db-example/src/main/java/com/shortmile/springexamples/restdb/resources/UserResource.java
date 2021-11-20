@@ -4,7 +4,7 @@ import lombok.*;
 
 @Data
 @Builder
-public class User {
+public class UserResource {
     private final Long id;
     private final String name;
     private final String email;
