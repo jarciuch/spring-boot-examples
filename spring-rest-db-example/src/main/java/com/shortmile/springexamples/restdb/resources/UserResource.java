@@ -1,9 +1,10 @@
-package com.shortmile.springexamples.restdb.resource;
+package com.shortmile.springexamples.restdb.resources;
 
 import lombok.*;
 
 @Data
-public class User {
+@Builder
+public class UserResource {
     private final Long id;
     private final String name;
     private final String email;
